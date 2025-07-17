@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_witch_down",
-    "path":"sprites/spr_witch_down/spr_witch_down.yy",
+    "name":"spr_downl_down",
+    "path":"sprites/spr_downl_down/spr_downl_down.yy",
   },
   "spriteMaskId":null,
   "visible":true,
