@@ -1,8 +1,10 @@
-move_speed = 1;
+target_x = x;
+target_y = y;
+
+alarm[0] = 60;
 
 tileMap = layer_tilemap_get_id("Tiles_Col");
 
-hp = 10;
-hp_total = hp;
-damage = 1;
-facing = 0;
+//  knockback
+kb_x = 0;
+kb_y = 0;
