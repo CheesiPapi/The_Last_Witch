@@ -41,6 +41,7 @@
     {"id":{"name":"spr_house","path":"sprites/spr_house/spr_house.yy",},},
     {"id":{"name":"spr_witch_down","path":"sprites/spr_witch_down/spr_witch_down.yy",},},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
+    {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
