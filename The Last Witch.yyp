@@ -35,12 +35,15 @@
   },
   "name":"The Last Witch",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"obj_witch","path":"objects/obj_witch/obj_witch.yy",},},
+    {"id":{"name":"room_test","path":"rooms/room_test/room_test.yy",},},
+    {"id":{"name":"spr_witch_down","path":"sprites/spr_witch_down/spr_witch_down.yy",},},
+    {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"room_test","path":"rooms/room_test/room_test.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
