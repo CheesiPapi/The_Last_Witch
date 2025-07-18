@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_player_idle_down",
-    "path":"sprites/spr_player_idle_down/spr_player_idle_down.yy",
+    "name":"Witch_Look_Down",
+    "path":"sprites/Witch_Look_Down/Witch_Look_Down.yy",
   },
   "spriteMaskId":null,
   "visible":true,
