@@ -1,17 +1,22 @@
 {
   "$GMObject":"",
-  "%Name":"obj_potion_parent",
+  "%Name":"obj_med_health_potion",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_potion_parent",
-  "overriddenProperties":[],
+  "name":"obj_med_health_potion",
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_potion_parent","path":"objects/obj_potion_parent/obj_potion_parent.yy",},"propertyId":{"name":"heal_num","path":"objects/obj_potion_parent/obj_potion_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
+  ],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_potion_parent",
+    "path":"objects/obj_potion_parent/obj_potion_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -25,13 +30,14 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v1","%Name":"heal_num","filters":[],"listItems":[],"multiselect":false,"name":"heal_num","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"5","varType":0,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_sm_health_potion",
+    "path":"sprites/spr_sm_health_potion/spr_sm_health_potion.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

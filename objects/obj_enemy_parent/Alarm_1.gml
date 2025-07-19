@@ -6,8 +6,14 @@ if (hp<= 0)
     
     obj_player.add_xp(xp_value);
     
-    // In obj_enemy’s Destroy Event
-    if (irandom(1) == 0) { // 50% chance to drop
-        instance_create_layer(x, y, "Items", obj_health_potion);
-}
+    var _drop_chance = irandom(100);  //  Random Number 0-100
+    if (_drop_chance < 50) {
+    // 50% chance: No drop
+    } else if (_drop_chance < 80) { // 30% chance (50-80)
+        instance_create_layer(x, y, "Items", obj_sm_health_potion);
+    } else if (_drop_chance < 95) { // 15% chance (80-95)
+        instance_create_layer(x, y, "Items", obj_med_health_potion);
+    } else { // 5% chance (95-100)
+        instance_create_layer(x, y, "Items", obj_lar_health_potion);
+    }
 }

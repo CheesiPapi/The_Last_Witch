@@ -1,10 +1,14 @@
 {
   "$GMObject":"",
-  "%Name":"obj_health_potion",
-  "eventList":[],
+  "%Name":"obj_lar_health_potion",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_health_potion",
-  "overriddenProperties":[],
+  "name":"obj_lar_health_potion",
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_potion_parent","path":"objects/obj_potion_parent/obj_potion_parent.yy",},"propertyId":{"name":"heal_num","path":"objects/obj_potion_parent/obj_potion_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"20",},
+  ],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
@@ -31,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_health_potion",
-    "path":"sprites/spr_health_potion/spr_health_potion.yy",
+    "name":"spr_sm_health_potion",
+    "path":"sprites/spr_sm_health_potion/spr_sm_health_potion.yy",
   },
   "spriteMaskId":null,
   "visible":true,
