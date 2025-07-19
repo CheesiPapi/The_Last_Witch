@@ -26,3 +26,10 @@ if (keyboard_check_pressed(vk_space))
     _inst.image_angle = facing;
     _inst.damage *= damage; 
 }
+
+if (keyboard_check_pressed(ord("E"))) {
+    if (inventory[selected_slot] == "Health Potion") {
+        hp = min(hp + 20, hp_total); // Heal 20 HP
+        inventory[selected_slot] = noone; // Remove from inventory
+    }
+}

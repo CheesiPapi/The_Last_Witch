@@ -25,3 +25,8 @@ function add_xp(_xp_to_add)
         damage *= 1.2;
     }
 }
+
+//  Inventory
+inventory_max_slots = 10;
+inventory = array_create(inventory_max_slots, noone);  //  Empty lots start as 'noone'
+selected_slot = 0;
