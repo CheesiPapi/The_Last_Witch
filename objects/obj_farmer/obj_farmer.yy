@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_basic_farmer",
-    "path":"sprites/spr_basic_farmer/spr_basic_farmer.yy",
+    "name":"spr_farmer",
+    "path":"sprites/spr_farmer/spr_farmer.yy",
   },
   "spriteMaskId":null,
   "visible":true,
