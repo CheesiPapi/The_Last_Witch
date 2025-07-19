@@ -43,6 +43,7 @@
     {"id":{"name":"scr_macros","path":"scripts/scr_macros/scr_macros.yy",},},
     {"id":{"name":"spr_basic_farmer","path":"sprites/spr_basic_farmer/spr_basic_farmer.yy",},},
     {"id":{"name":"spr_house","path":"sprites/spr_house/spr_house.yy",},},
+    {"id":{"name":"spr_water_tiles","path":"sprites/spr_water_tiles/spr_water_tiles.yy",},},
     {"id":{"name":"spr_witch_down_walk","path":"sprites/spr_witch_down_walk/spr_witch_down_walk.yy",},},
     {"id":{"name":"spr_witch_left_walk","path":"sprites/spr_witch_left_walk/spr_witch_left_walk.yy",},},
     {"id":{"name":"spr_witch_right_walk","path":"sprites/spr_witch_right_walk/spr_witch_right_walk.yy",},},
