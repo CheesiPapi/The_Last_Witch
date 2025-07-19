@@ -22,3 +22,41 @@ if place_meeting(x, y + yspd, obj_house) == true
 
 x += xspd;
 y += yspd;
+
+
+
+
+
+
+
+
+
+
+
+
+// this sets sprite direction 
+if yspd == 0
+	{
+	if xspd > 0 {face = RIGHT};
+	if xspd < 0 {face = LEFT};
+	}
+
+if xspd > 0 && face == LEFT {face = RIGHT};
+if xspd < 0 && face == RIGHT {face = LEFT};
+
+if xspd == 0
+	{
+	if yspd < 0 {face = UP};
+	if yspd > 0 {face = DOWN};
+	}
+	
+if yspd > 0 && face == UP {face = DOWN};
+if yspd < 0 && face == DOWN {face = UP};
+
+sprite_index = sprite[face];
+
+// walking animations
+if xspd == 0 && yspd == 0
+	{
+		image_index = 0;
+	}
