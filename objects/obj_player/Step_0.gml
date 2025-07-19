@@ -15,9 +15,9 @@ if (_hor != 0 or _ver != 0)
 else 
 {
     if (sprite_index == Witch_Walk_Down) sprite_index = Witch_Look_Down;  // if the sprite has been walking down, the idle matches down
-    else if (sprite_index == Witch_Walk_Up) sprite_index = Witch_Walk_Up;  //  same for up
-    else if (sprite_index == Witch_Walk_Right) sprite_index =Witch_Walk_Right;  //  same for right
-    else if (sprite_index == Witch_Walk_Left) sprite_index = Witch_Walk_Left;  //  and finally left
+    else if (sprite_index == Witch_Walk_Up) sprite_index = Witch_Look_Up;  //  same for up
+    else if (sprite_index == Witch_Walk_Right) sprite_index =Witch_Look_Right;  //  same for right
+    else if (sprite_index == Witch_Walk_Left) sprite_index = Witch_Look_Left;  //  and finally left
 }
 
 if (keyboard_check_pressed(vk_space))
