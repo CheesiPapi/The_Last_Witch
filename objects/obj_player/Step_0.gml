@@ -33,3 +33,24 @@ if (keyboard_check_pressed(ord("E"))) {
         inventory[selected_slot] = noone; // Remove from inventory
     }
 }
+
+// Scroll up/down
+if (keyboard_check_pressed(vk_up)) {
+    selected_slot = max(0, selected_slot - 1);
+}
+if (keyboard_check_pressed(vk_down)) {
+    selected_slot = min(inventory_max_slots - 1, selected_slot + 1);
+}
+
+// Use selected item (e.g., pressing 'E')
+if (keyboard_check_pressed(ord("E"))) {
+    var _item = inventory[selected_slot];
+    if (_item != noone) {
+        switch (_item) {
+            case "Small Health Potion": hp = min(hp + 10, hp_total); break;
+            case "Medium Health Potion": hp = min(hp + 25, hp_total); break;
+            case "Large Health Potion": hp = min(hp + 50, hp_total); break;
+        }
+        inventory[selected_slot] = noone; // Remove used item
+    }
+}
