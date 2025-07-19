@@ -1,4 +1,4 @@
-move_speed = 1;
+move_speed = 2;
 
 tileMap = layer_tilemap_get_id("Tiles_Col");
 
