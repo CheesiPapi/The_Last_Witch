@@ -24,7 +24,7 @@
     {"$GMFolder":"","%Name":"Sounds","folderPath":"folders/Sounds.yy","name":"Sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",}
   ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
@@ -150,7 +150,7 @@
     {"$GMIncludedFile":"","%Name":"23bc1a68-7430-4bce-9d38-cf4ce7b1a467.png","CopyToMask":-1,"filePath":"datafiles/sprites/Sprite6","name":"23bc1a68-7430-4bce-9d38-cf4ce7b1a467.png","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"2730deb3-1332-4eed-a47e-9d274a434dc4.png","CopyToMask":-1,"filePath":"datafiles/sprites/Sprite6/layers/23bc1a68-7430-4bce-9d38-cf4ce7b1a467","name":"2730deb3-1332-4eed-a47e-9d274a434dc4.png","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"Sprite6.yy","CopyToMask":-1,"filePath":"datafiles/sprites/Sprite6","name":"Sprite6.yy","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"submin.ttf","CopyToMask":-1,"filePath":"datafiles","name":"submin.ttf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"submin.ttf","CopyToMask":-1,"filePath":"datafiles","name":"submin.ttf","resourceType":"GMIncludedFile","resourceVersion":"2.0",}
   ],
   "isEcma":false,
   "LibraryEmitters":[],
@@ -159,7 +159,6 @@
   },
   "name":"The Last Witch",
   "resources":[
-    Nathan
     {"id":{"name":"obj_farmer","path":"objects/obj_farmer/obj_farmer.yy",},},
     {"id":{"name":"obj_spawner","path":"objects/obj_spawner/obj_spawner.yy",},},
     {"id":{"name":"room_test","path":"rooms/room_test/room_test.yy",},},
@@ -215,8 +214,7 @@
     {"id":{"name":"Witch_Walk_Left","path":"sprites/Witch_Walk_Left/Witch_Walk_Left.yy",},},
     {"id":{"name":"Witch_Walk_Right","path":"sprites/Witch_Walk_Right/Witch_Walk_Right.yy",},},
     {"id":{"name":"Witch_Walk_Up","path":"sprites/Witch_Walk_Up/Witch_Walk_Up.yy",},},
-    {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
- main
+    {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},}
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
