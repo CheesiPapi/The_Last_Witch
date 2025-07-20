@@ -36,7 +36,7 @@
   "name":"The Last Witch",
   "resources":[
     {"id":{"name":"obj_farmer","path":"objects/obj_farmer/obj_farmer.yy",},},
-    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_player_nbranch","path":"objects/obj_player_nbranch/obj_player_nbranch.yy",},},
     {"id":{"name":"obj_spawner","path":"objects/obj_spawner/obj_spawner.yy",},},
     {"id":{"name":"room_test","path":"rooms/room_test/room_test.yy",},},
     {"id":{"name":"scr_macros","path":"scripts/scr_macros/scr_macros.yy",},},

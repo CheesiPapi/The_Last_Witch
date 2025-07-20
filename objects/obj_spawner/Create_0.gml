@@ -9,7 +9,7 @@ function spawn_farmer() {
     var sy = irandom_range(y1, y2);
 
     // (Optional) ensure not too close to player
-    var p = instance_exists(obj_player) ? instance_find(obj_player,0) : noone;
+    var p = instance_exists(obj_player_nbranch) ? instance_find(obj_player_nbranch,0) : noone;
     if (p != noone) {
         var min_dist = 96;
         var safety_loops = 0;

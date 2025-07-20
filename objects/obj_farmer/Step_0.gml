@@ -1,5 +1,5 @@
 /// Farmer Step
-var p = instance_exists(obj_player) ? instance_find(obj_player,0) : noone;
+var p = instance_exists(obj_player_nbranch) ? instance_find(obj_player_nbranch,0) : noone;
 
 switch (state) {
     case FarmerState.WANDER:
