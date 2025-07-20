@@ -16,4 +16,9 @@ if (hp<= 0)
     } else { // 5% chance (95-100)
         instance_create_layer(x, y, "Items", obj_lar_health_potion);
     }
+    
+    // Destroy Event
+    alarm[2] = respawn_delay;
+
+
 }

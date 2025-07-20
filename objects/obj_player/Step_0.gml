@@ -20,21 +20,9 @@ else
     else if (sprite_index == Witch_Walk_Left) sprite_index = Witch_Look_Left;  //  and finally left
 }
 
-if (keyboard_check_pressed(vk_space))
-{
-    var _inst = instance_create_depth(x, y, depth, obj_attack);
-    _inst.image_angle = facing;
-    _inst.damage *= damage; 
-}
 
-if (keyboard_check_pressed(ord("E"))) {
-    if (inventory[selected_slot] == "Health Potion") {
-        hp = min(hp + 20, hp_total); // Heal 20 HP
-        inventory[selected_slot] = noone; // Remove from inventory
-    }
-}
 
-// Scroll up/down
+// Scroll up/down for item
 if (keyboard_check_pressed(vk_up)) {
     selected_slot = max(0, selected_slot - 1);
 }
@@ -53,4 +41,21 @@ if (keyboard_check_pressed(ord("E"))) {
         }
         inventory[selected_slot] = noone; // Remove used item
     }
+}
+
+//  spell
+if (mouse_check_button_pressed(mb_left))
+{     
+    var _instsp = point_direction(x, y, mouse_x, mouse_y);
+    _instsp.instance_create_depth(x, y, depth, obj_spell_fire);
+    
+}
+
+//  sword slash
+
+if (keyboard_check_pressed(vk_space))
+{
+    var _instsl = instance_create_depth(x, y, depth, obj_attack);
+    _instsl.image_angle = facing;
+    _instsl.damage *= damage; 
 }

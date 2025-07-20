@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_enemy1",
+  "%Name":"obj_spell_fire",
   "eventList":[],
   "managed":true,
-  "name":"obj_enemy1",
+  "name":"obj_spell_fire",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"obj_enemy_parent",
-    "path":"objects/obj_enemy_parent/obj_enemy_parent.yy",
+    "name":"obj_spell_parent",
+    "path":"objects/obj_spell_parent/obj_spell_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_enemy1",
-    "path":"sprites/spr_enemy1/spr_enemy1.yy",
+    "name":"spr_spell_fire",
+    "path":"sprites/spr_spell_fire/spr_spell_fire.yy",
   },
   "spriteMaskId":null,
   "visible":true,
