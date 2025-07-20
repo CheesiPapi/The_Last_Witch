@@ -1,6 +1,6 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"grass_tileset",
+  "%Name":"ts_grass",
   "autoTileSets":[
     {"$GMAutoTileSet":"","%Name":"grass_auto_tile","closed_edge":true,"name":"grass_auto_tile","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[19,10,11,5,13,6,9,2,12,14,8,1,7,4,3,18,],},
   ],
@@ -9,7 +9,7 @@
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"grass_tileset",
+  "name":"ts_grass",
   "out_columns":4,
   "out_tilehborder":2,
   "out_tilevborder":2,
