@@ -1,13 +1,15 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"TileSet1",
-  "autoTileSets":[],
+  "%Name":"grass_tileset",
+  "autoTileSets":[
+    {"$GMAutoTileSet":"","%Name":"grass_auto_tile","closed_edge":true,"name":"grass_auto_tile","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[19,10,11,5,13,6,9,2,12,14,8,1,7,4,3,18,],},
+  ],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"TileSet1",
+  "name":"grass_tileset",
   "out_columns":4,
   "out_tilehborder":2,
   "out_tilevborder":2,
@@ -18,8 +20,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_wts_1",
-    "path":"sprites/spr_wts_1/spr_wts_1.yy",
+    "name":"spr_grass",
+    "path":"sprites/spr_grass/spr_grass.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -27,12 +29,12 @@
     "path":"texturegroups/Default",
   },
   "tileAnimationFrames":[],
-  "tileAnimationSpeed":6.0,
-  "tileHeight":16,
+  "tileAnimationSpeed":15.0,
+  "tileHeight":64,
   "tilehsep":0,
   "tilevsep":0,
-  "tileWidth":16,
+  "tileWidth":64,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":16,
+  "tile_count":20,
 }
