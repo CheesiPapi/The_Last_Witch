@@ -3,12 +3,17 @@
   "%Name":"TileSet1",
   "autoTileSets":[],
   "macroPageTiles":{
-    "SerialiseHeight":0,
-    "SerialiseWidth":0,
-    "TileSerialiseData":[],
+    "SerialiseHeight":19,
+    "SerialiseWidth":19,
+    "TileCompressedData":[
+      -204,0,5,215,216,217,218,219,-14,0,5,235,236,237,238,239,-14,0,5,255,256,257,258,259,-14,0,5,275,276,
+      277,278,279,-14,0,5,295,296,297,298,299,-14,0,5,315,316,317,318,319,-26,0,5,224,225,226,227,228,-14,
+      0,5,244,245,246,247,248,-7,0,
+    ],
+    "TileDataFormat":1,
   },
   "name":"TileSet1",
-  "out_columns":8,
+  "out_columns":18,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -18,8 +23,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_tileset",
-    "path":"sprites/spr_tileset/spr_tileset.yy",
+    "name":"spr_grass",
+    "path":"sprites/spr_grass/spr_grass.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -34,5 +39,5 @@
   "tileWidth":16,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":64,
+  "tile_count":320,
 }

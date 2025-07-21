@@ -1,6 +1,6 @@
 image_blend = c_white;
 
-if (hp<= 0)
+if (hp<= 0)  //  Destroys the enemy
 {
     instance_destroy();
     
@@ -18,7 +18,11 @@ if (hp<= 0)
     }
     
     // Destroy Event
-    alarm[2] = respawn_delay;
+    // Save death position and trigger respawn
+    respawn_x = x;
+    respawn_y = y;
+    is_dead = true;
+    alarm[2] = respawn_delay; // Start respawn countdown
 
 
 }
