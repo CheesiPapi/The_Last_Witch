@@ -43,20 +43,19 @@ if (keyboard_check_pressed(ord("E"))) {
     }
 }
 
-//  spell
-if (keyboard_check_pressed(ord("L")))
-{     
-    var _instsp = instance_create_depth(x, y, depth, obj_spell_fire)
-    _instsp.image_angle = facing;
-    _instsp.damage = damage;
-    
+//  spell fire
+if (keyboard_check_pressed(ord("L"))) {
+    var _inst_spell = instance_create_layer(x, y, "Instances", obj_spell_fire);
+    with (_inst_spell) {
+        direction = other.facing; // Use player's facing direction
+    }
 }
 
 //  sword slash
 
 if (keyboard_check_pressed(vk_space))
 {
-    var _instsl = instance_create_depth(x, y, depth, obj_attack);
-    _instsl.image_angle = facing;
-    _instsl.damage *= damage; 
+    var _inst_slash = instance_create_depth(x, y, depth, obj_attack);
+    _inst_slash.image_angle = facing;
+    _inst_slash.damage *= damage; 
 }

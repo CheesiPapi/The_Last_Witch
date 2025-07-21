@@ -35,5 +35,5 @@
     "path":"sprites/spr_slash/spr_slash.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

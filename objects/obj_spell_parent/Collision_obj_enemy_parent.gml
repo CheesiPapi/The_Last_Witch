@@ -1,3 +1,3 @@
-effect_create_above(ef_flare, x, y, 1, obj_spell_parent.spell_color);
-
+effect_create_above(ef_smokeup, x, y, 0, c_gray);
 instance_destroy();
+
