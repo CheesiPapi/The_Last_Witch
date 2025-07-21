@@ -44,10 +44,11 @@ if (keyboard_check_pressed(ord("E"))) {
 }
 
 //  spell
-if (mouse_check_button_pressed(mb_left))
+if (keyboard_check_pressed(ord("L")))
 {     
-    var _instsp = point_direction(x, y, mouse_x, mouse_y);
-    _instsp.instance_create_depth(x, y, depth, obj_spell_fire);
+    var _instsp = instance_create_depth(x, y, depth, obj_spell_fire)
+    _instsp.image_angle = facing;
+    _instsp.damage = damage;
     
 }
 

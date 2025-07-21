@@ -1,5 +1,3 @@
-effect_create_above(ef_explosion, x, y, 1, obj_spell_parent.spell_color);
-
 if (alarm[1 < 0])
 {
     hp -= object_index.damage;
