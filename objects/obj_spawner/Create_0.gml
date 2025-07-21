@@ -23,9 +23,11 @@ function spawn_farmer() {
     instance_create_layer(sx, sy, "Enemies", obj_farmer);
 }
 
+_time_keep = 30;  //  fps
+
 /// Spawner Create
-spawn_interval_base = 3 * room_speed; // 3 seconds
-spawn_interval_min  = 0.75 * room_speed;
+spawn_interval_base = 3 * _time_keep; // 3 seconds
+spawn_interval_min  = 0.75 * _time_keep;
 spawn_interval      = spawn_interval_base;
 
 time_until_spawn = spawn_interval;
@@ -33,7 +35,7 @@ enemy_cap        = 12;
 enemies_spawned  = 0;
 
 difficulty_timer = 0;
-difficulty_step  = 10 * room_speed; // every 10 seconds, increase difficulty
+difficulty_step  = 10 * _time_keep; // every 10 seconds, increase difficulty
 
 // Predefine possible spawn zones (rectangles) OR points
 spawn_regions = [
