@@ -73,4 +73,3 @@ for (var i = 0; i < inventory_max_slots; i++) {
     draw_rectangle_color(_xstart, _ystart, _xend, _slot_size * (inventory_max_slots + 1), c_blue, c_blue, c_blue, c_blue, true);
     
 }
-
