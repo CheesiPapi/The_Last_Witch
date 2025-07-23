@@ -34,18 +34,19 @@ draw_set_valign(fa_top);
 
 // Inventory  //
 
-//  starting the inventory
-var _xstart = 500 * 4;
+//  variables for the inventory
+var _xstart = 500 * 3;
 var _ystart = 40;
 var _slot_size = 50;
+var _recw = 400;
 var _xend = _xstart + 400;
-var _yend = _slot_size * (inventory_max_slots + 1);
+var _yend = _slot_size * (inventory_max_slots);
 var _boarder_margin = 10;
 
 
 // draw background
 draw_set_color(c_black);
-draw_rectangle(_xstart, _ystart, _xend, _yend, false);  //  inventory rectangle black
+draw_sprite_stretched_ext(spr_box, 0, _xstart, _ystart, _recw, _yend, c_black, 0.3);  //  inventory rectangle black
 draw_set_color(c_white); //  text in inventory white
 
 //  Draw slots and items
@@ -69,7 +70,7 @@ for (var i = 0; i < inventory_max_slots; i++) {
     }
     
     //  draw slot boarder
-    draw_rectangle(_xstart, _ystart, _xend, _yend, true);
+    draw_rectangle_color(_xstart, _ystart, _xend, _slot_size * (inventory_max_slots + 1), c_blue, c_blue, c_blue, c_blue, true);
     
 }
 

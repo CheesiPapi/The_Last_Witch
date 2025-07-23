@@ -1,18 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_spell_fire",
-  "eventList":[],
+  "%Name":"obj_menubutton_title",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_spell_fire",
+  "name":"obj_menubutton_title",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"obj_spell_parent",
-    "path":"objects/obj_spell_parent/obj_spell_parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_spell_fire",
-    "path":"sprites/spr_spell_fire/spr_spell_fire.yy",
+    "name":"spr_title_button",
+    "path":"sprites/spr_title_button/spr_title_button.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -173,6 +173,7 @@
     {"id":{"name":"obj_lar_health_potion","path":"objects/obj_lar_health_potion/obj_lar_health_potion.yy",},},
     {"id":{"name":"obj_med_health_potion","path":"objects/obj_med_health_potion/obj_med_health_potion.yy",},},
     {"id":{"name":"obj_menubutton_parent","path":"objects/obj_menubutton_parent/obj_menubutton_parent.yy",},},
+    {"id":{"name":"obj_menubutton_title","path":"objects/obj_menubutton_title/obj_menubutton_title.yy",},},
     {"id":{"name":"obj_menubutton_wood_exit","path":"objects/obj_menubutton_wood_exit/obj_menubutton_wood_exit.yy",},},
     {"id":{"name":"obj_menubutton_wood_help","path":"objects/obj_menubutton_wood_help/obj_menubutton_wood_help.yy",},},
     {"id":{"name":"obj_menubutton_wood_play","path":"objects/obj_menubutton_wood_play/obj_menubutton_wood_play.yy",},},
@@ -212,6 +213,7 @@
     {"id":{"name":"spr_sm_health_potion","path":"sprites/spr_sm_health_potion/spr_sm_health_potion.yy",},},
     {"id":{"name":"spr_soil","path":"sprites/spr_soil/spr_soil.yy",},},
     {"id":{"name":"spr_spell_fire","path":"sprites/spr_spell_fire/spr_spell_fire.yy",},},
+    {"id":{"name":"spr_title_button","path":"sprites/spr_title_button/spr_title_button.yy",},},
     {"id":{"name":"spr_title","path":"sprites/spr_title/spr_title.yy",},},
     {"id":{"name":"spr_water_tiles","path":"sprites/spr_water_tiles/spr_water_tiles.yy",},},
     {"id":{"name":"spr_witch_down_walk","path":"sprites/spr_witch_down_walk/spr_witch_down_walk.yy",},},
@@ -233,10 +235,10 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_title_screen","path":"rooms/rm_title_screen/rm_title_screen.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"room_test","path":"rooms/room_test/room_test.yy",},},
-    {"roomId":{"name":"rm_title_screen","path":"rooms/rm_title_screen/rm_title_screen.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
