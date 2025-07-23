@@ -46,7 +46,7 @@ var _boarder_margin = 10;
 
 // draw background
 draw_set_color(c_black);
-draw_sprite_stretched_ext(spr_box, 0, _xstart, _ystart, _recw, _yend, c_black, 0.3);  //  inventory rectangle black
+draw_sprite_stretched_ext(spr_box, 0, _xstart, _ystart, _recw, _yend + 10, c_black, 0.3);  //  inventory rectangle black
 draw_set_color(c_white); //  text in inventory white
 
 //  Draw slots and items
