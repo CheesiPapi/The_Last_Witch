@@ -23,6 +23,4 @@ if (hp<= 0)  //  Destroys the enemy
     respawn_y = y;
     is_dead = true;
     alarm[2] = respawn_delay; // Start respawn countdown
-
-
 }
