@@ -1,15 +1,14 @@
 {
   "$GMObject":"",
-  "%Name":"obj_spell_fire",
+  "%Name":"ob_spell_lightning",
   "eventList":[],
   "managed":true,
-  "name":"obj_spell_fire",
+  "name":"ob_spell_lightning",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_spell_parent","path":"objects/obj_spell_parent/obj_spell_parent.yy",},"propertyId":{"name":"spell_name","path":"objects/obj_spell_parent/obj_spell_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"fireball",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_spell_parent","path":"objects/obj_spell_parent/obj_spell_parent.yy",},"propertyId":{"name":"damage","path":"objects/obj_spell_parent/obj_spell_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"30",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_spell_parent","path":"objects/obj_spell_parent/obj_spell_parent.yy",},"propertyId":{"name":"mana_cost","path":"objects/obj_spell_parent/obj_spell_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"15",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_spell_parent","path":"objects/obj_spell_parent/obj_spell_parent.yy",},"propertyId":{"name":"spell_speed","path":"objects/obj_spell_parent/obj_spell_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_spell_parent","path":"objects/obj_spell_parent/obj_spell_parent.yy",},"propertyId":{"name":"spell_sprite","path":"objects/obj_spell_parent/obj_spell_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_spell_fire",},
   ],
   "parent":{
     "name":"Objects",
@@ -36,10 +35,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_spell_fire",
-    "path":"sprites/spr_spell_fire/spr_spell_fire.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

@@ -43,19 +43,41 @@ if (keyboard_check_pressed(ord("E"))) {
     }
 }
 
-//  spell fire
-if (keyboard_check_pressed(ord("L"))) {
-    var _inst_spell = instance_create_layer(x, y, "Instances", obj_spell_fire);
-    with (_inst_spell) {
-        direction = other.facing; // Use player's facing direction
-    }
-}
+////  spell fire
+//if (keyboard_check_pressed(ord("L"))) {
+    //var _inst_spell = instance_create_layer(x, y, "Instances", obj_spell_fire);
+    //with (_inst_spell) {
+        //direction = other.facing; // Use player's facing direction
+    //}
+//}
 
 //  sword slash
 
-if (keyboard_check_pressed(vk_space))
-{
-    var _inst_slash = instance_create_depth(x, y, depth, obj_attack);
-    _inst_slash.image_angle = facing;
-    _inst_slash.damage *= damage; 
+//if (keyboard_check_pressed(vk_space))
+//{
+    //var _inst_slash = instance_create_depth(x, y, depth, obj_attack);
+    //_inst_slash.image_angle = facing;
+    //_inst_slash.damage *= damage; 
+//}
+
+
+// CASTING FUNCTION
+function cast_spell(spell_name) {
+    var spell = global.spells[? spell_name];
+    
+    // Check unlocked and cooldown
+    if (!spell.unlocked || (ds_map_exists(spell_cooldowns, spell_name) && spell_cooldowns[? spell_name] > 0)) {
+        return false;
+    }
+    else{
+        // Create spell object
+        instance_create_layer(x, y, "Spells", spell.object);
+    
+        // Start cooldown (in frames)
+        spell_cooldowns[? spell_name] = spell.cooldown;
+        return true;
+    }
+    
 }
+
+cast_spell(obj_spell_fire) 
