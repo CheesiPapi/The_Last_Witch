@@ -60,6 +60,14 @@ if (keyboard_check_pressed(ord("E"))) {
     //_inst_slash.damage *= damage; 
 //}
 
+if (!instance_exists(spell)) {
+    show_debug_message("Spell object doesn't exist!");
+    return false;
+}
+if (!variable_instance_exists(spell, "unlocked")) {
+    show_debug_message("Spell object missing unlocked variable!");
+    return false;
+}
 
 // CASTING FUNCTION
 function cast_spell(spell_name) {

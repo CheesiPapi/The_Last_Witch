@@ -1,10 +1,30 @@
-// Get data from controller
-var spell_data = global.spells[? "spell_name"];
+// Define a spell constructor
+function Spell(_name, _damage, _cooldown) constructor {
+    name = _name;
+    damage = _damage;
+    cooldown = _cooldown;
+    current_cooldown = 0;
+    
+    cast = function() {
+        if (current_cooldown <= 0) {
+            current_cooldown = cooldown;
+            return damage;
+        }
+        return 0;
+    };
+    
+    update = function() {
+        if (current_cooldown > 0) current_cooldown--;
+    };
+}
 
-// Set stats
-damage = spell_data.damage;
-speed = spell_speed;
-direction = obj_player.facing;
+// Create spells
+fireball = new Spell("Fireball", 30, 60);
+ice_shard = new Spell("Ice Shard", 20, 40);
 
-// Visuals
-sprite_index = spell_sprite;
+// In Step Event:
+fireball.update();
+ice_shard.update();
+
+// On casting:
+damage = fireball.cast();
